@@ -36,19 +36,19 @@ body {
 
 @font-face {
 	font-family: 'NeueMachine-ultrabold'; 
-	src: url('../fonts/NeueMachina/NeueMachina-Ultrabold.otf'); 
+	src: url('../fonts/NeueMachina/NeueMachina-Ultrabold.woff'); 
 }
 @font-face {
 	font-family: 'NeueMachine-bold'; 
-	src: url('../fonts/NeueMachina/NeueMachina-Regular.otf'); 
+	src: url('../fonts/NeueMachina/NeueMachina-Regular.woff'); 
 }
 @font-face {
 	font-family: 'Raleway-semibold'; 
-	src: url('../fonts/Raleway/Raleway-SemiBold.ttf'); 
+	src: url('../fonts/Raleway/Raleway-SemiBold.woff'); 
 }
 @font-face {
 	font-family: 'Raleway-medium'; 
-	src: url('../fonts/Raleway/Raleway-Medium.ttf'); 
+	src: url('../fonts/Raleway/Raleway-Medium.woff'); 
 }
 
 @media screen and (max-width: 320px) {
