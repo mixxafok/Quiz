@@ -1,0 +1,67 @@
+body {
+  background: #F9EFFF;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.active{
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.rectangle-radio{
+  width: 22px;
+  height: 22px;
+  border: 2px solid black;
+  border-radius: 100%;
+  margin: 0 8px 0 0 ;
+  padding: 0;
+}
+
+.rectangle-checkbox{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin: 0 8px 0 0 ;
+  padding: 0;
+  font-size: 200%;
+}
+
+@font-face {
+	font-family: 'NeueMachine-ultrabold'; 
+	src: url('/fonts/NeueMachina/NeueMachina-Ultrabold.otf'); 
+}
+@font-face {
+	font-family: 'NeueMachine-bold'; 
+	src: url('/fonts/NeueMachina/NeueMachina-Regular.otf'); 
+}
+@font-face {
+	font-family: 'Raleway-semibold'; 
+	src: url('/fonts/Raleway/Raleway-SemiBold.ttf'); 
+}
+@font-face {
+	font-family: 'Raleway-medium'; 
+	src: url('/fonts/Raleway/Raleway-Medium.ttf'); 
+}
+
+@media screen and (max-width: 320px) {
+
+  .rectangle-radio{
+    width: 17px;
+    height: 17px;
+    margin: 0 8px 0 0 ;
+  }
+  
+  .rectangle-checkbox{
+    width: 17px;
+    height: 17px;
+    font-size: 150%;
+  }
+}
