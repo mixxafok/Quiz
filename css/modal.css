@@ -42,6 +42,7 @@
   background-color: #9E00FF;
   color:#FFFFFF;
   border-color: #9E00FF;
+  transition: 0.15s  ease;
 }
 
 #hidden .fancybox-close-small{
@@ -49,6 +50,7 @@
   border-radius: 16px;
   margin: 2.5% 2.5% 0 0;
   padding: 0;
+  transition: 0.15s  ease;
 }
 
 .modal__title{
@@ -201,17 +203,20 @@
   background-color:#FFFFFF;
   color:#000;
   padding: 8px 32px;
+  transition: 0.15s  ease;
 }
 
 .modal-responce__buttons.radio.active:hover{
   background-color: #000000;
   color:#FFFFFF;
   border-color: #000000;
+  transition: 0.15s  ease;
 }
 .modal-responce__buttons.radio:hover{
   background-color: #9E00FF;
   color:#FFFFFF;
   border-color: #9E00FF;
+  transition: 0.15s  ease;
   & .rectangle-radio{
     background-color:#FFFFFF;
     border-color: #FFFFFF;
@@ -221,6 +226,7 @@
   background-color: #9E00FF;
   color:#FFFFFF;
   border-color: #9E00FF;
+  transition: 0.15s  ease;
   & .rectangle-radio{
     background-color:#FFFFFF;
     border-color: #FFFFFF;
@@ -237,6 +243,7 @@
   background-color: #000000;
   color:#FFFFFF;
   border-color: #000000;
+  transition: 0.15s  ease;
   & .rectangle-radio{
     background-color:#9E00FF;
   }
@@ -346,6 +353,7 @@
   .icon_invalid:hover + .requirements{
     position: absolute;
       display: block;
+      
   }
   .placeholder_invalid{
     color: #FF004C;

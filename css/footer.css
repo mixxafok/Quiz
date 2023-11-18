@@ -46,7 +46,7 @@
 .footer__block-2{
   display: flex;
   flex-direction: row;
-  height: 28%;
+  height:auto;
   width: 93.3%;
   margin-top: 2.3%;
   margin-bottom: 2.3%;
@@ -61,7 +61,7 @@
 .footer__block-2__tiktiok{
   background-image: url('../img/footer_tiktok.png');
   height: 100%;
-  width: 25.3%;
+  width: 25.5%;
   cursor: pointer;
 }
 .footer__block-2__vk{
@@ -75,12 +75,12 @@
   background-image: url('../img/footer_tg.png');
   margin-left: 8px;
   height: 71px;
-  width: 25.5%;
+  width: 25.4%;
   cursor: pointer;
 }
 .footer__block-2__quiz{
   color:#ffffff;
-  padding-left: 6.8%;
+  padding-left: 3.8%;
   height: 71px;
   width: 16%;
   font-family: NeueMachine-ultrabold;
@@ -91,17 +91,19 @@
 
 @media screen and (max-width: 320px) {
   .footer{
-     height: 16%;
+     height: auto;
+     padding: 15% 5.1% 5.1% 5.1%;
+     width: 89%;
   }
   .footer__block-1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     color:#ffffff;
-    width: 74.4%;
-    height: 33.5%;
-    margin-top: 15%;
-    margin-left: 5.8%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .footer__block-1__item-1, .footer__block-1__item-2{
@@ -119,6 +121,7 @@
   }
 
   .footer__block-1__item-1{
+    margin-top: 17%;
     order: 1;
   }
   .footer__block-1__item-2{
@@ -133,14 +136,11 @@
 
   }
 
-
   .footer__block-2{
-    width: 98%;
-    height: 30%;
-    margin-top: 15%;
-    margin-bottom: 2%;
-    margin-left: 3.3%;
-    margin-right:0 ;
+    width: 100%;
+    height: auto;
+    margin: 15% 0 0 0;
+    gap: px;
   }
   .footer__block-2__quiz{
     display: none;
@@ -148,13 +148,12 @@
   .footer__block-2__quiz__mobile{
     display: block;
     color:#ffffff;
-    margin-left: 5.8%;
+    margin: 0;
     height: 10%;
     width: 100%;
     font-family: 'NeueMachine-ultrabold';
     font-size: 225%;
     line-height: 35px;
-    margin-top: 15%;
     cursor: default;
   }
   .footer__block-2__quiz__mobile p{
@@ -164,21 +163,21 @@
 
   .footer__block-2__tiktiok{
     background-image: url('../img/mobile-footer-tiktok.png');
-    width: 30.5%;
+    width: 33%;
     height: 36px;
-
+    margin: 0;
   }
   .footer__block-2__vk{
     background-image: url('../img/mobile-footer-vk.png');
-    margin-left:2px;
-    width: 30.5%;
+    width: 33%;
     height: 36px;
+    margin: 0;
   }
   .footer__block-2__tg{
     background-image: url('../img/mobile-footer-tg.png');
-    margin-left:2px;
-    width: 30.4%;
+    width: 33%;
     height: 36px;
+    margin: 0;
   }
 
 }

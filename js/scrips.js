@@ -103,6 +103,18 @@ btnCanc[k].addEventListener('click', function(){
     });
 }
 
+
+let btnNavMobile = document.getElementsByClassName('header__button-mobile');
+btnNavMobile[0].addEventListener('click', function(){
+  let a = document.getElementsByClassName("header-nav__mobile")
+  if(a[0].className == 'header-nav__mobile'){
+    a[0].classList.add('q');
+  }
+  else{
+    a[0].classList.remove('q');
+  }   
+})
+
 $(".default_option").click(function(){
   $(this).parent().toggleClass("activeLi");
 })
@@ -130,6 +142,8 @@ $('.input-file input[type=file]').on('change', function(){
 	let file = this.files[0];
 	$(this).next().html(file.name);
 });
+
+
 
 
 
